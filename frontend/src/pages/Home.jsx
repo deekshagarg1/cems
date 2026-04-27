@@ -1,33 +1,3 @@
-// import { Link } from "react-router-dom";
-// import "../assets/css/Home.css";
-
-// function Home(){
-
-// return(
-
-// <div className="home">
-
-// <div className="hero">
-
-// <h1>College Event Management System</h1>
-
-// <p>
-// Streamline your campus events with our platform.
-// Create, manage and participate in events easily.
-// </p>
-
-// <Link to='events'><button >Browse Events</button></Link>
-
-
-// </div>
-
-// </div>
-
-// );
-
-// }
-
-// export default Home;
 
 import { useNavigate } from "react-router-dom";
 // import "./Home.css";

@@ -377,7 +377,7 @@ function Signup() {
       if (profilePreview) localStorage.setItem("profilePic", profilePreview);
       localStorage.setItem("userName", formData.name);
 
-      alert("Registered Successfully ✅");
+      alert("Registered Successfully ");
       navigate("/login");
 
     } catch (err) {
@@ -385,7 +385,7 @@ function Signup() {
                   err.response?.data?.sqlMessage ||
                   err.message;
       console.error("Signup error:", err.response?.data);
-      alert("Signup Failed ❌\n" + msg);
+      alert("Signup Failed \n" + msg);
     }
   };
 
@@ -503,3 +503,5 @@ function Signup() {
 }
 
 export default Signup;
+
+
