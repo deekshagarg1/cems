@@ -237,7 +237,7 @@ body.dark .built-icon-wrap { background: #1e3a5f; color: #93c5fd; }
 }
 .guide-ring {
   position: absolute; inset: -5px; border-radius: 50%;
-  border: 1.5px solid rgba(255,255,255,0.15);
+  /* border: 1.5px solid rgba(255,255,255,0.15); */
 }
 
 .guide-info {}

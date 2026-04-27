@@ -92,7 +92,7 @@ function About() {
             <h3 className="guidance-heading">Built under the guidance of</h3>
             <div className="guidance-card">
               <div className="guide-avatar guide-avatar-main">
-                <span><img className="abt_img" src="src\pages\pulkit1.jpeg" alt="rs" /></span>
+                <span><img className="abt_img" src="src\pages\jadonSir.png" alt="rs" /></span>
                 <div className="guide-ring"/>
               </div>
               <div className="guide-info">
@@ -109,7 +109,7 @@ function About() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
               </svg>
-              Madhya Pradesh Institute of Technology & Science (MITS)
+              Madhav Institute of Technology & Science (MITS)
             </div>
           </div>
 

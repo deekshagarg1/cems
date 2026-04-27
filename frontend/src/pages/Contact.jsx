@@ -25,7 +25,7 @@ function Contact() {
         </svg>
       ),
       label: "Email",
-      lines: ["support@cems.edu"],
+      lines: ["officialdeekshagarg@gmail.com"],
     },
     {
       icon: (
@@ -34,7 +34,7 @@ function Contact() {
         </svg>
       ),
       label: "Phone",
-      lines: ["+91 98765 43210"],
+      lines: ["+91 7440307053"],
     },
     {
       icon: (
@@ -44,7 +44,7 @@ function Contact() {
         </svg>
       ),
       label: "Office",
-      lines: ["College Campus, Block A", "Room 204, Admin Block", "Indore, MP 452001"],
+      lines: ["College Campus, Block A", "Room 204, Admin Block", "Gwalior, MP 474001"],
     },
   ];
 
@@ -92,12 +92,12 @@ function Contact() {
                 <div className="contact-form-row">
                   <div className="contact-field">
                     <label className="contact-label">Full Name</label>
-                    <input className="contact-input" type="text" placeholder="John Doe"
+                    <input className="contact-input" type="text" placeholder="Deeksha Garg"
                       value={form.name} onChange={e => setForm({...form, name:e.target.value})} required/>
                   </div>
                   <div className="contact-field">
                     <label className="contact-label">Email</label>
-                    <input className="contact-input" type="email" placeholder="john@example.com"
+                    <input className="contact-input" type="email" placeholder="Deeksha@example.com"
                       value={form.email} onChange={e => setForm({...form, email:e.target.value})} required/>
                   </div>
                 </div>
